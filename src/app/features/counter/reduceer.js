@@ -5,7 +5,7 @@ let initialState = {
 }
 
 let initialMod = {
-    mod: 2
+    mod: 1
 }
 
 export const countReducer = (state = initialState, action) => { 
