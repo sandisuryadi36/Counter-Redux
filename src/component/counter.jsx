@@ -8,7 +8,7 @@ export default function Counter(props) {
     return (
         <div className="col d-flex justify-content-center align-items-center m-4">
             <button className="btn btn-success mx-3" onClick={() => dispatch(decNoMinus(mod))}>-</button>
-            <div className="col-1 text-center">
+            <div className="text-center">
                 <p>Modifier Value</p>
                 <input type="number" defaultValue={mod} className="form-control text-center" onChange={(event) => dispatch(changeModifire(event.target.value))} />
             </div>
